@@ -1,0 +1,6 @@
+services:
+  staticweb:
+    build: .
+    image: ghcr.io/tatarsrw/static-web:dev
+    ports:
+      - "8080:80"
